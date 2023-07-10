@@ -1,0 +1,52 @@
+/* shared style */
+body {
+    font-family: 'Lato';
+}
+
+.text-content {
+    color: #27272799;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+button {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 13px 28px;
+}
+
+/* header style */
+header {
+    display: flex;
+}
+
+/* header div style */
+.head-content {
+    margin: 100px 40px 240px 170px;
+}
+.head-content > p {
+    margin-top: 25px;
+}
+.head-content > button {
+    margin-top: 25px;
+}
+.head-title {
+    color: #272727;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+/* header img style */
+.head-pic {
+    max-height: 600px;
+    margin: 50px 120px 50px 80px;
+}
