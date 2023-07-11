@@ -32,12 +32,15 @@ header {
 .head-content {
     margin: 100px 40px 240px 170px;
 }
-.head-content > p {
+
+.head-content>p {
     margin-top: 25px;
 }
-.head-content > button {
+
+.head-content>button {
     margin-top: 25px;
 }
+
 .head-title {
     color: #272727;
     font-size: 52px;
@@ -49,4 +52,101 @@ header {
 .head-pic {
     max-height: 600px;
     margin: 50px 120px 50px 80px;
+}
+
+/* main styles */
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+.first-section>p {
+    text-align: center;
+    margin: 20px 350px;
+}
+/* second section */
+.second-section {
+    display: flex;
+    gap: 100px;
+    padding: 20px 150px;
+
+}
+.second-section>div{
+    margin-top: 10px;
+}
+.img-one {
+    height: 380px;
+    width: 270px;
+    background-color: #A7216226;
+    padding: 25px 15px 0 10px;
+    border-radius: 300px 300px 0px 0px;
+}
+.img-two {
+    height: 380px;
+    width: 270px;
+    background-color: #0597A026;
+    padding: 25px 15px 0 10px;
+    border-radius: 300px 300px 0px 0px;
+}
+.img-three {
+    height: 380px;
+    width: 270px;
+    background-color: #477D1126;
+    padding: 25px 15px 0 10px;
+    border-radius: 300px 300px 0px 0px;
+}
+.second-section>div>h5 {
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-size: 15px;
+}
+/* third section */
+.third-section {
+    display: flex;
+    background-color: #2727270D;
+    padding-left: 300px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.third-section>div {
+    padding-left: 40px;
+    align-items: center;
+    text-align: center;
+}
+/* fourth section */
+.fourth-section {
+    display: flex;
+}
+.fourth-content {
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+.fourth-content>p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fourth-content>button {
+    margin-top: 15px;
+    margin-left: 160px;
+}
+
+.fourth-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 45px;
+}
+.fourth-pic {
+    height: 300px;
+    width: 280px;
+    margin-top: 100px;
+    margin-right: 300px;
 }
