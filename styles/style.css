@@ -1,6 +1,7 @@
 /* shared style */
 body {
     font-family: 'Lato';
+    color: #272727;
 }
 
 .text-content {
@@ -61,10 +62,12 @@ header {
     font-size: 35px;
     font-weight: 800;
 }
+
 .first-section>p {
     text-align: center;
     margin: 20px 350px;
 }
+
 /* second section */
 .second-section {
     display: flex;
@@ -72,9 +75,11 @@ header {
     padding: 20px 150px;
 
 }
-.second-section>div{
+
+.second-section>div {
     margin-top: 10px;
 }
+
 .img-one {
     height: 380px;
     width: 270px;
@@ -82,6 +87,7 @@ header {
     padding: 25px 15px 0 10px;
     border-radius: 300px 300px 0px 0px;
 }
+
 .img-two {
     height: 380px;
     width: 270px;
@@ -89,6 +95,7 @@ header {
     padding: 25px 15px 0 10px;
     border-radius: 300px 300px 0px 0px;
 }
+
 .img-three {
     height: 380px;
     width: 270px;
@@ -96,12 +103,14 @@ header {
     padding: 25px 15px 0 10px;
     border-radius: 300px 300px 0px 0px;
 }
+
 .second-section>div>h5 {
     text-decoration: underline;
     color: #272727;
     text-align: center;
     font-size: 15px;
 }
+
 /* third section */
 .third-section {
     display: flex;
@@ -110,15 +119,18 @@ header {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
 .third-section>div {
     padding-left: 40px;
     align-items: center;
     text-align: center;
 }
+
 /* fourth section */
 .fourth-section {
     display: flex;
 }
+
 .fourth-content {
     margin-top: 100px;
     margin-right: 100px;
@@ -144,9 +156,91 @@ header {
     text-align: center;
     margin-top: 45px;
 }
+
 .fourth-pic {
     height: 300px;
     width: 280px;
     margin-top: 100px;
     margin-right: 300px;
+}
+
+/* fifth section */
+.fifth-content {
+    margin-top: 150px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.fifth-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.fifth-content>p {
+    text-align: center;
+
+}
+
+.fifth-pic {
+    margin-left: 170px;
+}
+
+.fifth-pic>img {
+    height: 280px;
+    width: 220px;
+    margin-right: 25px;
+}
+
+/* sixth section */
+.sixth-content {
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 60px;
+    margin: 50px 120px;
+
+    text-align: center;
+}
+
+.sixth-content>input {
+    width: 400px;
+    height: 50px;
+}
+
+.sixth-content>h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* footer styles */
+.footer {
+    background: #272727;
+    text-align: center;
+    color: #FFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer>h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.content {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 390px;
+}
+
+.last-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
 }
